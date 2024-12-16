@@ -30,16 +30,25 @@ body.dark-mode {
 }
 
 .select {
-    background-color: #f3f3f3;
+    background-color: #dddada;
     padding: 5px 10px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 20px;
     cursor: pointer;
+    transition: 0.4s;
+    font-size: 18px;
+    
 }
 
+.select option {
+    border-radius: 10px;
+    background-color: #9c91dc;
+  }
+
 .select:hover {
-    background-color: #eaeaea;
+    background-color: #b5bce6;
 }
+
 
 .counter {
     max-width: 700px;
@@ -208,8 +217,7 @@ h1 {
 
 li {
     margin-left: 20px;
-    list-style-type: disc;
     margin-bottom: 10px;
     font-size: 15px;
-    color: #666;
+    color: #000000;
 }
